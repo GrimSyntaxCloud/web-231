@@ -58,13 +58,13 @@
             let myNumber = document.getElementById("txtMyNumber").value;
 
             if (parseInt(myNumber) > rnd) {
-                document.getElementById("myNumberResult").innerHTML = `The number is less than ${myNumber}`;
+                document.getElementById("myNumberResult").textContent = `The number is less than ${myNumber}`;
             }
             else if (parseInt(myNumber) < rnd) {
-                document.getElementById("myNumberResult").innerHTML = `The number is greater than ${myNumber}`;
+                document.getElementById("myNumberResult").textContent = `The number is greater than ${myNumber}`;
             }
             else {
-                document.getElementById("myNumberResult").innerHTML = "Congratulations! You picked the correct number!";
+                document.getElementById("myNumberResult").textContent = "Congratulations! You picked the correct number!";
             }
         }
 
