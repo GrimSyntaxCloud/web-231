@@ -74,9 +74,9 @@
             var letter = alphabet[pos - 1];
 
             if (letter == undefined) {
-                document.getElementById("alphabet-letter").innerHTML = `There are not ${pos} letters in the alphabet`;
+                document.getElementById("alphabet-letter").textContent = `There are not ${pos} letters in the alphabet`;
             } else {
-                document.getElementById("alphabet-letter").innerHTML = `${letter} is at position ${pos} in the alphabet`;
+                document.getElementById("alphabet-letter").textContent = `${letter} is at position ${pos} in the alphabet`;
             }
         }
     </script>
